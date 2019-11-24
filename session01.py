@@ -1,4 +1,5 @@
 import random
+import itertools
 class DataDistribution:
 
   def __init__ (self, b=None, w=None):
@@ -20,5 +21,9 @@ class DataDistribution:
     return self.generate(num_iters=num_iters)
 
 
+#
 test = DataDistribution()
-print(test(5))
+#print(x + ", " + y for x, y in test(5))
+for elemento in test(5):
+    print(elemento)
+#print(test(5))
