@@ -19,11 +19,3 @@ class DataDistribution:
 
   def __call__(self, num_iters=None):
     return self.generate(num_iters=num_iters)
-
-
-#
-test = DataDistribution()
-#print(x + ", " + y for x, y in test(5))
-for elemento in test(5):
-    print(elemento)
-#print(test(5))
